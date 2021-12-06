@@ -1,0 +1,100 @@
+
+body {padding: 30px;
+    display:flex; 
+    flex-direction: column;
+    align-items: left;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;}
+
+    html {background: url(pencil2.jpg) no-repeat center center fixed;
+        -webkit-background-size:cover;
+        -moz-background-size:cover;
+        -o-background-size: cover;
+        background-size: cover;}
+
+.visuals_section {
+    width: 80%;
+}
+
+#project_heading {color: rgb(110, 12, 221);
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    align-items: left;
+}
+
+.project_image {width : 33%;
+    border-radius: 15px;}
+
+.setup_experiment{    width: 80%;
+    display: inline-block;
+align-items: left;}
+
+
+.instruction_video {width : 100%; border-radius: 15px;}
+
+
+.container {
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.sub-container {
+    display: flex;
+    width: 50%;
+    max-width: 1200px;
+}
+.chat-input{
+    flex-direction: row;
+    align-items: left;
+}
+.chat-feed{
+    flex-direction: column;  
+    align-items: left;
+}
+input{
+    display: inline;
+    padding: 5px;
+    margin: 10px 10px 0 0;
+    height: 20px;
+}
+.chat-input-name {
+    width: 20%;
+    border-radius: 5px;
+}
+.chat-input-msg{
+    width: 65%;
+    border-radius: 5px;
+}
+button{
+    height: 28px;
+    margin-top: 13px;
+    border-radius: 5px;
+}
+.chat-header{
+    color: rgb(110, 12, 221);
+    margin-top: 10px;
+    font-size: 24px;
+    text-align: center;
+}
+.chat-box{
+    color: rgb(110,12,221);
+    border: 2px solid rgb(110, 12, 221);
+    height: 400px;
+    padding-left: 5px;
+    overflow: auto;
+    border-radius: 15px;
+}
+.file-upload{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+p{
+    overflow-wrap: break-word;
+}
+@media (max-width: 800px) {
+    .sub-container {
+        width: 85%;
+    }
+}
